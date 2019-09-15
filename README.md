@@ -46,16 +46,19 @@ we adopted two recently popular convolutional neural network architectures — t
 achieved 0.16 classification mean average precision (c-mAP) and ranked
 the second place among five teams that successfully submitted their predictions.
  </details>
+ 
 ## 2018
 - Kojima, Ryosuke, et al. ["HARK-Bird-Box: A Portable Real-time Bird Song Scene Analysis System."](https://ieeexplore.ieee.org/abstract/document/8594070/) 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018.
 <details><summary> Abstract </summary>
   This paper addresses real-time bird song scene analysis. Observation of animal behavior such as communication of wild birds would be aided by a portable device implementing a real-time system that can localize sound sources, measure their timing, classify their sources, and visualize these factors of sources. The difficulty of such a system is an integration of these functions considering the real-time requirement. To realize such a system, we propose a cascaded approach, cascading sound source detection, localization, separation, feature extraction, classification, and visualization for bird song analysis. Our system is constructed by combining an open source software for robot audition called HARK and a deep learning library to implement a bird song classifier based on a convolutional neural network (CNN). Considering portability, we implemented this system on a single-board computer, Jetson TX2, with a microphone array and developed a prototype device for bird song scene analysis. A preliminary experiment confirms a computational time for the whole system to realize a real-time system. Also, an additional experiment with a bird song dataset revealed a trade-off relationship between classification accuracy and time consuming and the effectiveness of our classifier.
  </details> 
-- Fazeka, Botond, et al. ["A multi-modal deep neural network approach to bird-song identification."](https://arxiv.org/abs/1811.04448) arXiv preprint arXiv:1811.04448 (2018).
+ 
+ - Fazeka, Botond, et al. ["A multi-modal deep neural network approach to bird-song identification."](https://arxiv.org/abs/1811.04448) arXiv preprint arXiv:1811.04448 (2018).
  <details><summary> Abstract </summary>
   We present a multi-modal Deep Neural Network (DNN) approach for bird song identification. The presented approach takes both audio samples and metadata as input. The audio is fed into a Convolutional Neural Network (CNN) using four convolutional layers. The additionally provided metadata is processed using fully connected layers. The flattened convolutional layers and the fully connected layer of the metadata are joined and fed into a fully connected layer. The resulting architecture achieved 2., 3. and 4. rank in the BirdCLEF2017 task in various training configurations.
  </details>
- - Lasseck, Mario. ["Audio-based Bird Species Identification with Deep Convolutional Neural Networks."](http://ceur-ws.org/Vol-2125/paper_140.pdf) CLEF (Working Notes). 2018.
+ 
+- Lasseck, Mario. ["Audio-based Bird Species Identification with Deep Convolutional Neural Networks."](http://ceur-ws.org/Vol-2125/paper_140.pdf) CLEF (Working Notes). 2018.
  <details><summary> Abstract </summary>
   This paper presents deep learning techniques for audio-based bird
 identification at very large scale. Deep Convolutional Neural Networks
@@ -73,6 +76,7 @@ Non-invasive bioacoustic monitoring is becoming increasingly popular for biodive
 </details>  
    
 -  Hershey, S. et. al., [CNN Architectures for Large-Scale Audio Classification](https://research.google.com/pubs/pub45611.html), ICASSP 2017
+
 -  Gemmeke, J. et. al., [AudioSet: An ontology and human-labelled dataset for audio events](https://research.google.com/pubs/pub45857.html), ICASSP 2017
 
 -  Salamon, Justin, et al. ["Fusing shallow and deep learning for bioacoustic bird species classification."](https://ieeexplore.ieee.org/abstract/document/7952134) 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2017.
@@ -86,6 +90,7 @@ Non-invasive bioacoustic monitoring is becoming increasingly popular for biodive
 - Tóth, Bálint Pál, and Bálint Czeba. [Convolutional Neural Networks for Large-Scale Bird Song Classification in Noisy Environment](https://www.researchgate.net/profile/Balint_Gyires-Toth/publication/306287320_Convolutional_Neural_Networks_for_Large-Scale_Bird_Song_Classification_in_Noisy_Environment/links/57b6da6608ae2fc031fd6eed/Convolutional-Neural-Networks-for-Large-Scale-Bird-Song-Classification-in-Noisy-Environment.pdf), CLEF (Working Notes). 2016.
 <details><summary> Abstract </summary> This paper describes a convolutional neural network based deep learning approach for bird song classification that was used in an audio record-based bird identification challenge, called BirdCLEF 2016. The training and test set contained about 24k and 8.5k recordings, belonging to 999 bird species. The recorded waveforms were very diverse in terms of length and content. We converted
 the waveforms into frequency domain and splitted into equal segments. The segments were fed into a convolutional neural network for feature learning, which was followed by fully connected layers for classification. In the official scores our solution reached a MAP score of over 40% for main species, and MAP score of over 33% for main species mixed with background species</details> 
+
 - Nicholson, David. ["Comparison of machine learning methods applied to birdsong element classification."](http://conference.scipy.org/proceedings/scipy2016/pdfs/david_nicholson.pdf) Proceedings of the 15th Python in Science Conference. 2016.
 <details><summary> Abstract </summary> Songbirds provide neuroscience with a model system for understanding how the brain learns and produces a motor skill similar to speech.
 Much like humans, songbirds learn their vocalizations from social interactions

@@ -32,8 +32,38 @@ A list of useful resources in the bird sound recognition
 # Papers
 
 ## 2019
-
+- Koh, Chih-Yuan, et al. ["Bird Sound Classification using Convolutional Neural Networks."](http://www.dei.unipd.it/~ferro/CLEF-WN-Drafts/CLEF2019/paper_68.pdf) (2019).
+ <details><summary> Abstract </summary>
+  Accurate prediction of bird species from audio recordings
+is beneficial to bird conservation. Thanks to the rapid advance in deep
+learning, the accuracy of bird species identification from audio recordings
+has greatly improved in recent years. This year, the BirdCLEF2019[4]
+task invited participants to design a system that could recognize 659
+bird species from 50,000 audio recordings. The challenges in this competition included memory management, the number of bird species for the
+machine to recognize, and the mismatch in signal-to-noise ratio between
+the training and the testing sets. To participate in this competition,
+we adopted two recently popular convolutional neural network architectures — the ResNet[1] and the inception model[13]. The inception model
+achieved 0.16 classification mean average precision (c-mAP) and ranked
+the second place among five teams that successfully submitted their predictions.
+ </details>
 ## 2018
+- Kojima, Ryosuke, et al. ["HARK-Bird-Box: A Portable Real-time Bird Song Scene Analysis System."](https://ieeexplore.ieee.org/abstract/document/8594070/) 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018.
+<details><summary> Abstract </summary>
+  This paper addresses real-time bird song scene analysis. Observation of animal behavior such as communication of wild birds would be aided by a portable device implementing a real-time system that can localize sound sources, measure their timing, classify their sources, and visualize these factors of sources. The difficulty of such a system is an integration of these functions considering the real-time requirement. To realize such a system, we propose a cascaded approach, cascading sound source detection, localization, separation, feature extraction, classification, and visualization for bird song analysis. Our system is constructed by combining an open source software for robot audition called HARK and a deep learning library to implement a bird song classifier based on a convolutional neural network (CNN). Considering portability, we implemented this system on a single-board computer, Jetson TX2, with a microphone array and developed a prototype device for bird song scene analysis. A preliminary experiment confirms a computational time for the whole system to realize a real-time system. Also, an additional experiment with a bird song dataset revealed a trade-off relationship between classification accuracy and time consuming and the effectiveness of our classifier.
+ </details> 
+- Fazeka, Botond, et al. ["A multi-modal deep neural network approach to bird-song identification."](https://arxiv.org/abs/1811.04448) arXiv preprint arXiv:1811.04448 (2018).
+ <details><summary> Abstract </summary>
+  We present a multi-modal Deep Neural Network (DNN) approach for bird song identification. The presented approach takes both audio samples and metadata as input. The audio is fed into a Convolutional Neural Network (CNN) using four convolutional layers. The additionally provided metadata is processed using fully connected layers. The flattened convolutional layers and the fully connected layer of the metadata are joined and fed into a fully connected layer. The resulting architecture achieved 2., 3. and 4. rank in the BirdCLEF2017 task in various training configurations.
+ </details>
+ - Lasseck, Mario. ["Audio-based Bird Species Identification with Deep Convolutional Neural Networks."](http://ceur-ws.org/Vol-2125/paper_140.pdf) CLEF (Working Notes). 2018.
+ <details><summary> Abstract </summary>
+  This paper presents deep learning techniques for audio-based bird
+identification at very large scale. Deep Convolutional Neural Networks
+(DCNNs) are fine-tuned to classify 1500 species. Various data augmentation
+techniques are applied to prevent overfitting and to further improve model accuracy and generalization. The proposed approach is evaluated in the BirdCLEF
+2018 campaign and provides the best system in all subtasks. It surpasses previous state-of-the-art by 15.8 % identifying foreground species and 20.2 % considering also background species achieving a mean reciprocal rank (MRR) of
+82.7 % and 74.0 % on the official BirdCLEF Subtask1 test set.
+ </details>
 
 ## 2017
 
@@ -42,10 +72,10 @@ A list of useful resources in the bird sound recognition
 Non-invasive bioacoustic monitoring is becoming increasingly popular for biodiversity conservation. Two automated methods for acoustic classification of bird species currently used are frame-based methods, a model that uses Hidden Markov Models (HMMs), and event-based methods, a model consisting of descriptive measurements or restricted to tonal or harmonic vocalizations. In this work, we propose a new method for automated field recording analysis with improved automated segmentation and robust bird species classification. We used a Gaussian Mixture Model (GMM)-based frame selection with an event-energy-based sifting procedure that selected representative acoustic events. We employed a Mel, band-pass filter bank on each event's spectrogram. The output in each subband was parameterized by an autoregressive (AR) model, which resulted in a feature consisting of all model coefficients. Finally, a support vector machine (SVM) algorithm was used for classification. The significance of the proposed method lies in the parameterized features depicting the species-specific spectral pattern. This experiment used a control audio dataset and real-world audio dataset comprised of field recordings of eleven bird species from the Xeno-canto Archive, consisting of 2762 bird acoustic events with 339 detected “unknown” events (corresponding to noise or unknown species vocalizations). Compared with other recent approaches, our proposed method provides comparable identification performance with respect to the eleven species of interest. Meanwhile, superior robustness in real-world scenarios is achieved, which is expressed as the considerable improvement from 0.632 to 0.928 for the F-score metric regarding the “unknown” events. The advantage makes the proposed method more suitable for automated field recording analysis.
 </details>  
    
-- Hershey, S. et. al., [CNN Architectures for Large-Scale Audio Classification](https://research.google.com/pubs/pub45611.html), ICASSP 2017
-- Gemmeke, J. et. al., [AudioSet: An ontology and human-labelled dataset for audio events](https://research.google.com/pubs/pub45857.html), ICASSP 2017
+-  Hershey, S. et. al., [CNN Architectures for Large-Scale Audio Classification](https://research.google.com/pubs/pub45611.html), ICASSP 2017
+-  Gemmeke, J. et. al., [AudioSet: An ontology and human-labelled dataset for audio events](https://research.google.com/pubs/pub45857.html), ICASSP 2017
 
-- Salamon, Justin, et al. ["Fusing shallow and deep learning for bioacoustic bird species classification."](https://ieeexplore.ieee.org/abstract/document/7952134) 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2017.
+-  Salamon, Justin, et al. ["Fusing shallow and deep learning for bioacoustic bird species classification."](https://ieeexplore.ieee.org/abstract/document/7952134) 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2017.
 <details><summary> Abstract </summary> Automated classification of organisms to species based on their vocalizations would contribute tremendously to abilities to monitor biodiversity, with a wide range of applications in the field of ecology. In particular, automated classification of migrating birds' flight calls could yield new biological insights and conservation applications for birds that vocalize during migration. In this paper we explore state-of-the-art classification techniques for large-vocabulary bird species classification from flight calls. In particular, we contrast a “shallow learning” approach based on unsupervised dictionary learning with a deep convolutional neural network combined with data augmentation. We show that the two models perform comparably on a dataset of 5428 flight calls spanning 43 different species, with both significantly outperforming an MFCC baseline. Finally, we show that by combining the models using a simple late-fusion approach we can further improve the results, obtaining a state-of-the-art classification accuracy of 0.96.</details> 
 
 - Narasimhan, Revathy, Xiaoli Z. Fern, and Raviv Raich. ["Simultaneous segmentation and classification of bird song using CNN."](https://ieeexplore.ieee.org/abstract/document/7952135/) 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2017.

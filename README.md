@@ -2,7 +2,7 @@
 A list of useful resources in the bird sound recognition
 * [Datasets](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Datasets)
 * [Papers](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Papers)
-* [Open Source Projects](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Open_Source_Projects)
+* [Open Source Projects](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Open%20Source%20Projects)
 * [Competitions](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Competitions)
 
 ![Singing bird](https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/bird_16x9_3.jpg)

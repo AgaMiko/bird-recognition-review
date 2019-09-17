@@ -114,6 +114,12 @@ Non-invasive bioacoustic monitoring is becoming increasingly popular for biodive
 - Narasimhan, Revathy, Xiaoli Z. Fern, and Raviv Raich. ["Simultaneous segmentation and classification of bird song using CNN."](https://ieeexplore.ieee.org/abstract/document/7952135/) 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2017.
 &nbsp;&nbsp;&nbsp;&nbsp; <details><summary> Abstract </summary> In bioacoustics, automatic animal voice detection and recognition from audio recordings is an emerging topic for animal preservation. Our research focuses on bird bioacoustics, where the goal is to segment bird syllables from the recording and predict the bird species for the syllables. Traditional methods for this task addresses the segmentation and species prediction separately, leading to propagated errors. This work presents a new approach that performs simultaneous segmentation and classification of bird species using a Convolutional Neural Network (CNN) with encoder-decoder architecture. Experimental results on bird recordings show significant improvement compared to recent state-of-the-art methods for both segmentation and species classification.</details> 
 
+- Grill, Thomas, and Jan Schlüter. ["Two convolutional neural networks for bird detection in audio signals."](https://ieeexplore.ieee.org/abstract/document/8081512) 2017 25th European Signal Processing Conference (EUSIPCO). IEEE, 2017.
+ &nbsp;&nbsp;&nbsp;&nbsp;  <details><summary> Abstract </summary>
+ We present and compare two approaches to detect the presence of bird calls in audio recordings using convolutional neural networks on mel spectrograms. In a signal processing challenge using environmental recordings from three very different sources, only two of them available for supervised training, we obtained an Area Under Curve (AUC) measure of 89% on the hidden test set, higher than any other contestant. By comparing multiple variations of our systems, we find that despite very different architectures, both approaches can be tuned to perform equally well. Further improvements will likely require a radically different approach to dealing with the discrepancy between data sources.
+</details>
+
+
 ## 2016
 
 - Tóth, Bálint Pál, and Bálint Czeba. [Convolutional Neural Networks for Large-Scale Bird Song Classification in Noisy Environment](https://www.researchgate.net/profile/Balint_Gyires-Toth/publication/306287320_Convolutional_Neural_Networks_for_Large-Scale_Bird_Song_Classification_in_Noisy_Environment/links/57b6da6608ae2fc031fd6eed/Convolutional-Neural-Networks-for-Large-Scale-Bird-Song-Classification-in-Noisy-Environment.pdf), CLEF (Working Notes). 2016.
@@ -145,6 +151,11 @@ https://github.com/NickleDave/ML-comparison-birdsong</details>
 - Sprengel, Elias, et al. [Audio based bird species identification using deep learning techniques](http://ceur-ws.org/Vol-1609/16090547.pdf). No. CONF. 2016.
  &nbsp;&nbsp;&nbsp;&nbsp; <details><summary> Abstract </summary>
  In this paper we present a new audio classification methodfor bird species identification. Whereas most approaches apply nearestneighbour matching [6] or decision trees [8] using extracted templates foreach bird species, ours draws upon techniques from speech recognitionand recent advances in the domain of deep learning. With novel prepro-cessing and data augmentation methods, we train a convolutional neuralnetwork on the biggest publicly available dataset [5]. Our network archi-tecture achieves a mean average precision score of 0.686 when predictingthe main species of each sound file and scores 0.555 when backgroundspecies  are  used  as  additional  prediction  targets.  As  this  performancesurpasses current state of the art results, our approach won this yearsinternational BirdCLEF 2016 Recognition Challenge [3,4,1].
+</details>
+
+- Stowell, Dan, et al. ["Bird detection in audio: a survey and a challenge."](https://arxiv.org/abs/1608.03417) 2016 IEEE 26th International Workshop on Machine Learning for Signal Processing (MLSP). IEEE, 2016.
+ &nbsp;&nbsp;&nbsp;&nbsp;  <details><summary> Abstract </summary>
+ Many biological monitoring projects rely on acoustic detection of birds. Despite increasingly large datasets, this detection is often manual or semi-automatic, requiring manual tuning/postprocessing. We review the state of the art in automatic bird sound detection, and identify a widespread need for tuning-free and species-agnostic approaches. We introduce new datasets and an IEEE research challenge to address this need, to make possible the development of fully automatic algorithms for bird sound detection. 
 </details>
 
 ## 2015

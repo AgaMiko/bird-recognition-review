@@ -34,8 +34,17 @@ A list of useful resources in the bird sound recognition
 ![Flying bird](http://www.kuwaitbirds.org/sites/default/files/files-misc/birding-bird-shapes-1.jpg)
 
 ## 2019
-- Koh, Chih-Yuan, et al. ["Bird Sound Classification using Convolutional Neural Networks."](http://www.dei.unipd.it/~ferro/CLEF-WN-Drafts/CLEF2019/paper_68.pdf) (2019).
+- Stowell, Dan, et al. ["Automatic acoustic detection of birds through deep learning: the first Bird Audio Detection challenge."](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13103) Methods in Ecology and Evolution 10.3 (2019): 368-380.
  <details><summary> Abstract </summary>
+     Assessing the presence and abundance of birds is important for monitoring specific species as well as overall ecosystem health. Many birds are most readily detected by their sounds, and thus, passive acoustic monitoring is highly appropriate. Yet acoustic monitoring is often held back by practical limitations such as the need for manual configuration, reliance on example sound libraries, low accuracy, low robustness, and limited ability to generalise to novel acoustic conditions.
+    Here, we report outcomes from a collaborative data challenge. We present new acoustic monitoring datasets, summarise the machine learning techniques proposed by challenge teams, conduct detailed performance evaluation, and discuss how such approaches to detection can be integrated into remote monitoring projects.
+    Multiple methods were able to attain performance of around 88% area under the receiver operating characteristic (ROC) curve (AUC), much higher performance than previous general‐purpose methods.
+    With modern machine learning, including deep learning, general‐purpose acoustic bird detection can achieve very high retrieval rates in remote monitoring data, with no manual recalibration, and no pretraining of the detector for the target species or the acoustic conditions in the target environment.
+</details>
+
+
+- Koh, Chih-Yuan, et al. ["Bird Sound Classification using Convolutional Neural Networks."](http://www.dei.unipd.it/~ferro/CLEF-WN-Drafts/CLEF2019/paper_68.pdf) (2019).
+ >> <details><summary> Abstract </summary>
   Accurate prediction of bird species from audio recordings
 is beneficial to bird conservation. Thanks to the rapid advance in deep
 learning, the accuracy of bird species identification from audio recordings
@@ -48,7 +57,12 @@ we adopted two recently popular convolutional neural network architectures — t
 achieved 0.16 classification mean average precision (c-mAP) and ranked
 the second place among five teams that successfully submitted their predictions.
  </details>
- 
+
+- Kahl, S., et al. ["Overview of BirdCLEF 2019: large-scale bird recognition in Soundscapes."](http://ceur-ws.org/Vol-2380/paper_256.pdf) CLEF working notes (2019).
+ <details><summary> Abstract </summary>
+  The BirdCLEF challenge—as part of the 2019 LifeCLEF Lab[7]—offers a large-scale proving ground for system-oriented evaluation ofbird species identification based on audio recordings. The challenge usesdata  collected  through  Xeno-canto,  the  worldwide  community  of  birdsound recordists. This ensures that BirdCLEF is close to the conditionsof  real-world  application,  in  particular  with  regard  to  the  number  ofspecies in the training set (659). In 2019, the challenge was focused onthe difficult task of recognizing all birds vocalizing in omni-directionalsoundscape recordings. Therefore, the dataset of the previous year wasextended with more than 350 hours of manually annotated soundscapesthat were recorded using 30 field recorders in Ithaca (NY, USA). Thispaper describes the methodology of the conducted evaluation as well asthe synthesis of the main results and lessons learned.
+ </details>
+
 ## 2018
 - Kojima, Ryosuke, et al. ["HARK-Bird-Box: A Portable Real-time Bird Song Scene Analysis System."](https://ieeexplore.ieee.org/abstract/document/8594070/) 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018.
 <details><summary> Abstract </summary>
@@ -69,6 +83,19 @@ techniques are applied to prevent overfitting and to further improve model accur
 2018 campaign and provides the best system in all subtasks. It surpasses previous state-of-the-art by 15.8 % identifying foreground species and 20.2 % considering also background species achieving a mean reciprocal rank (MRR) of
 82.7 % and 74.0 % on the official BirdCLEF Subtask1 test set.
  </details>
+ 
+ - Priyadarshani, Nirosha, Stephen Marsland, and Isabel Castro. ["Automated birdsong recognition in complex acoustic environments: a review."](https://onlinelibrary.wiley.com/doi/full/10.1111/jav.01447) Journal of Avian Biology 49.5 (2018): jav-01447.
+  <details><summary> Abstract </summary>
+ onservationists are increasingly using autonomous acoustic recorders to determine the presence/absence and the abundance of bird species. Unlike humans, these recorders can be left in the field for extensive periods of time in any habitat. Although data acquisition is automated, manual processing of recordings is labour intensive, tedious, and prone to bias due to observer variations. Hence automated birdsong recognition is an efficient alternative.
+
+However, only few ecologists and conservationists utilise the existing birdsong recognisers to process unattended field recordings because the software calibration time is exceptionally high and requires considerable knowledge in signal processing and underlying systems, making the tools less user‐friendly. Even allowing for these difficulties, getting accurate results is exceedingly hard. In this review we examine the state‐of‐the‐art, summarising and discussing the methods currently available for each of the essential parts of a birdsong recogniser, and also available software. The key reasons behind poor automated recognition are that field recordings are very noisy, calls from birds that are a long way from the recorder can be faint or corrupted, and there are overlapping calls from many different birds. In addition, there can be large numbers of different species calling in one recording, and therefore the method has to scale to large numbers of species, or at least avoid misclassifying another species as one of particular interest. We found that these areas of importance, particularly the question of noise reduction, are amongst the least researched. In cases where accurate recognition of individual species is essential, such as in conservation work, we suggest that specialised (species‐specific) methods of passive acoustic monitoring are required. We also believe that it is important that comparable measures, and datasets, are used to enable methods to be compared.
+</details>
+
+
+ - Goeau, Herve, et al. ["Overview of BirdCLEF 2018: monospecies vs. soundscape bird identification."](http://ceur-ws.org/Vol-2125/invited_paper_9.pdf) 2018.
+  <details><summary> Abstract </summary>
+ The BirdCLEF challenge offers a large-scale proving groundfor system-oriented evaluation of bird species identification based on au-dio recordings of their sounds. One of its strengths is that it uses datacollected through Xeno-canto, the worldwide community of bird soundrecordists. This ensures that BirdCLEF is close to the conditions of real-world application, in particular with regard to the number of species inthe training set (1500). Two main scenarios are evaluated: (i) the identifi-cation of a particular bird species in a recording, and (ii), the recognitionof all species vocalising in a long sequence (up to one hour) of raw sound-scapes that can contain tens of birds singing more or less simultaneously.This paper reports an overview of the systems developed by the six par-ticipating  research  groups,  the  methodology  of  the  evaluation  of  theirperformance, and an analysis and discussion of the results obtained.
+</details>
 
 ## 2017
 
@@ -115,6 +142,10 @@ all Bengalese Finch songs. Testing of machine learning algorithms was carried ou
 paper in Jupyter notebook form, as well as code and links to data, are here:
 https://github.com/NickleDave/ML-comparison-birdsong</details> 
 
+- Sprengel, Elias, et al. [Audio based bird species identification using deep learning techniques](http://ceur-ws.org/Vol-1609/16090547.pdf). No. CONF. 2016.
+ <details><summary> Abstract </summary>
+ In this paper we present a new audio classification methodfor bird species identification. Whereas most approaches apply nearestneighbour matching [6] or decision trees [8] using extracted templates foreach bird species, ours draws upon techniques from speech recognitionand recent advances in the domain of deep learning. With novel prepro-cessing and data augmentation methods, we train a convolutional neuralnetwork on the biggest publicly available dataset [5]. Our network archi-tecture achieves a mean average precision score of 0.686 when predictingthe main species of each sound file and scores 0.555 when backgroundspecies  are  used  as  additional  prediction  targets.  As  this  performancesurpasses current state of the art results, our approach won this yearsinternational BirdCLEF 2016 Recognition Challenge [3,4,1].
+</details>
 
 ## 2015
 

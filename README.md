@@ -13,12 +13,21 @@ A list of useful resources in the bird sound recognition
 **Scripts that make downloading easier can be found here:**
   - [github.com/AgaMiko/xeno-canto-download](https://github.com/AgaMiko/xeno-canto-download) - Simple and easy scraper to download sound with metadata, written in python
   - [github.com/ntivirikin/xeno-canto-py](https://github.com/ntivirikin/xeno-canto-py) - Python API wrapper designed to help users easily download xeno-canto.org recordings and associated information. Avaiable to install with pip manager.
+
+- **[Macaulay Library](https://search.macaulaylibrary.org/catalog)** is the world's largest archive of animal sounds. It includes more than 175,000 audio recordings covering 75 percent of the world's bird species. There are an ever-increasing numbers of insect, fish, frog, and mammal recordings. The video archive includes over 50,000 clips, representing over 3,500 species.[1] The Library is part of Cornell Lab of Ornithology of the Cornell University. 
+
+- **[tierstimmenarchiv.de](https://www.tierstimmenarchiv.de/)** - Animal sound album at  the  Museum  für  Naturkunde  in  Berlin, with a collection of bird songs and calls.
+
+- **[RMBL-Robin database](http://www.seas.ucla.edu/spapl/projects/Bird.html)** - Database for Noise Robust Bird Song Classification, Recognition, and Detection.A 78 minutes Robin song database collected by using a close-field song meter (www.wildlifeacoustics.com) at the Rocky Mountain Biological Laboratory near Crested Butte, Colorado in the summer of 2009. The recorded Robin songs are naturally corrupted by different kinds of background noises, such as wind, water and other vocal bird species. Non-target songs may overlap with target songs. Each song usually consists of 2-10 syllables. The timing boundaries and noise conditions of the syllables and songs, and human inferred syllable patterns are annotated.
+
 - **[floridamuseum.ufl.edu/bird-sounds](https://www.floridamuseum.ufl.edu/bird-sounds/)** - A collection of bird sound recordings from the Florida Museum Bioacoustic Archives, with 27,500 cataloged recordings representing about 3,000 species, is perhaps third or fourth largest in the world in number of species.
 
 - **Field recordings, worldwide ("freefield1010")** - a collection of 7,690 excerpts from field recordings around the world, gathered by the FreeSound project, and then standardised for research. This collection is very diverse in location and environment, and for the BAD Challenge we have annotated it for the presence/absence of birds.
    - #### Download: [data labels](https://ndownloader.figshare.com/files/10853303) • [audio files (5.8 Gb zip)](https://archive.org/download/ff1010bird/ff1010bird_wav.zip) (or [via bittorrent](https://archive.org/download/ff1010bird/ff1010bird_archive.torrent))
+   
 - **Crowdsourced dataset, UK ("warblrb10k")** - 8,000 smartphone audio recordings from around the UK, crowdsourced by users of Warblr the bird recognition app. The audio covers a wide distribution of UK locations and environments, and includes weather noise, traffic noise, human speech and even human bird imitations.
   - #### Download: [data labels](https://ndownloader.figshare.com/files/10853306) • [audio files (4.3 Gb zip)](https://archive.org/download/warblrb10k_public/warblrb10k_public_wav.zip) (or [via bittorrent](https://archive.org/download/warblrb10k_public/warblrb10k_public_archive.torrent))
+  
 - **Remote monitoring flight calls, USA ("BirdVox-DCASE-20k")** - 20,000 audio clips collected from remote monitoring units placed near Ithaca, NY, USA during the autumn of 2015, by the BirdVox project. More info about BirdVox-DCASE-20k
   - #### Download: [data labels](https://ndownloader.figshare.com/files/10853300) • [audio files (15.4 Gb zip)](https://zenodo.org/record/1208080/files/BirdVox-DCASE-20k.zip)
 

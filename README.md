@@ -7,6 +7,7 @@ A list of useful resources in the bird sound recognition
 
 ![Singing bird](https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/bird_16x9_3.jpg)
 
+Feel free to make a pull request or to ⭐️ the repository if you like it! 
 # Datasets
 
 - **[xeno-canto.org](https://www.xeno-canto.org/)** is a website dedicated to sharing bird sounds from all over the world (480k, September 2019).

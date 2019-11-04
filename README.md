@@ -174,7 +174,8 @@ https://github.com/NickleDave/ML-comparison-birdsong</details>
 
 # Competitions
 ![Flying bird](http://www.kuwaitbirds.org/sites/default/files/files-misc/birding-bird-shapes-1.jpg)
-
+- [LifeCLEF 2020 - BirdCLEF](https://www.imageclef.org/BirdCLEF2020) - Two scenarios will be evaluated: (i) the recognition of all specimens singing in a long sequence (up to one hour) of raw soundscapes that can contain tens of birds singing simultaneously, and (ii) chorus source separation in complex soundscapes that were recorded in stereo at very high sampling rate (250 kHz SR).
+The training set used for the challenge will be a version of the 2019 training set enriched by new contributions from the Xeno-canto network and a geographic extension. It will contain approximately 80K recordings covering between 1500 and 2000 species from North, Central and South America, as well as Europe. This will be the largest bioacoustic dataset used in the literature. 
 - [LifeCLEF 2019 Bird Recognition](https://www.crowdai.org/challenges/lifeclef-2019-bird-recognition) - The goal of the challenge is to detect and classify all audible bird vocalizations within the provided soundscape recordings. Each soundscape is divided into segments of 5 seconds. Participants should submit a list of species associated with probability scores for each segment.
 - [LifeCLEF 2018 Bird - Monophone](https://www.crowdai.org/challenges/lifeclef-2018-bird-monophone) - The goal of the task is to identify the species of the most audible bird (i.e. the one that was intended to be recorded) in each of the provided test recordings. Therefore, the evaluated systems have to return a ranked list of possible species for each of the 12,347 test recordings. 
 - [LifeCLEF 2018 Bird - Soundscape](https://www.crowdai.org/challenges/lifeclef-2018-bird-soundscape) - The goal of the task is to localize and identify all audible birds within the provided soundscape recordings. Each soundscape is divided into segments of 5 seconds, and a list of species associated to probability scores will have to be returned for each segment. 
@@ -184,7 +185,7 @@ https://github.com/NickleDave/ML-comparison-birdsong</details>
 # Open Source Projects
 
 ![Flying bird](http://www.kuwaitbirds.org/sites/default/files/files-misc/birding-bird-shapes-1.jpg)
-
+- [Polish bird species recognition - 19 class recognition, 2019](https://github.com/wimlds-trojmiasto/birds) - Repositorium with code to download, and cut files into melspectrograms with librosa library. Later, files are classified with deep neural networks in Keras.
 - [Large-Scale Bird Sound Classification using Convolutional Neural Networks, 2017](https://github.com/kahst/BirdCLEF2017) - Code repo for our submission to the LifeCLEF bird identification task BirdCLEF2017.
 - [Automatic recognition of element classes and boundaries in the birdsong with variable sequences](https://github.com/cycentum/birdsong-recognition) - This is a source code for the manuscript “Automatic recognition of element classes and boundaries in the birdsong with variable sequences” by Takuya Koumura and Kazuo Okanoya (http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0159188).
 - [Trainig scripts for deep convolutional neural network based audio classification in Keras](https://github.com/bapalto/birdsong-keras) - The following scripts were created for the BirdCLEF 2016 competition by Bálint Czeba and Bálint Pál Tóth.

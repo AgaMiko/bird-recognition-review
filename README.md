@@ -8,7 +8,20 @@ A list of useful resources in the bird sound recognition
 ![Singing bird](https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/bird_16x9_3.jpg)
 
 Feel free to make a pull request or to ⭐️ the repository if you like it! 
+# Introduction
+What are challenges in bird song recognition?
+Elias Sprengel, Martin Jaggi, Yannic Kilcher, and Thomas Hofmann in their paper [Audio Based Bird Species Identification using
+Deep Learning Techniques](http://ceur-ws.org/Vol-1609/16090547.pdf) point out some very important issues:
+* Background noise in the recordings - city noises, churches, cars...
+* Very often multiple birds singing at the same time - multi-label classification problem
+* Differences between mating calls and songs - mating calls are short, whereas songs are longer 
+* Inter-species variance - same bird species singing in different countries might sound completely different
+* Variable length of sound recordings
+* Large number of different species
+
+
 # Datasets
+![Flying bird](http://www.kuwaitbirds.org/sites/default/files/files-misc/birding-bird-shapes-1.jpg)
 
 - **[xeno-canto.org](https://www.xeno-canto.org/)** is a website dedicated to sharing bird sounds from all over the world (480k, September 2019).
 **Scripts that make downloading easier can be found here:**

@@ -4,6 +4,8 @@ A list of useful resources in the bird sound recognition
 * [Papers](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Papers)
 * [Open Source Projects](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Open-Source-Projects)
 * [Competitions](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Competitions)
+* [Articles](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Articles)
+
 
 ![Singing bird](https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/bird_16x9_3.jpg)
 
@@ -208,4 +210,10 @@ The training set used for the challenge will be a version of the 2019 training s
 - [Bird-Species-Classification](https://github.com/zahan97/Bird-Species-Classification) - The project uses a neural-net in tensorflow to classify the species to which a bird belongs to based on the features it has. There are total 312 features and 11787 examples.
 - [Bird Species Classification by song](https://github.com/johnmartinsson/bird-species-classification) - This repository is not actively maintained. It is the result of a master's thesis and the code has been made available as a reference if anyone would like to reproduce the results of the thesis.
 - [Recognizing Birds from Sound - The 2018 BirdCLEF Baseline System](https://github.com/kahst/BirdCLEF-Baseline) -  a baseline system for the LifeCLEF bird identification task BirdCLEF2018. Authors encourage participants to build upon the code base and share their results for future reference. They promise to keep the repository updated and add improvements and submission boilerplate in the future.
+
+# Articles
+![Flying bird](http://www.kuwaitbirds.org/sites/default/files/files-misc/birding-bird-shapes-1.jpg)
+
+- [SOUND-BASED BIRD CLASSIFICATION](https://towardsdatascience.com/sound-based-bird-classification-965d0ecacb2b) - How a group of Polish women used deep learning, acoustics and ornithology to classify birds
+
 

@@ -1,5 +1,5 @@
 # Bird recognition - review of useful resources
-A list of useful resources in the bird sound recognition
+A list of useful resources in the bird sound recognition - bird songs & calls
 * [Datasets](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Datasets)
 * [Papers](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Papers)
 * [Open Source Projects](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Open-Source-Projects)

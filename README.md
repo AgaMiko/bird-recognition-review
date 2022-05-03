@@ -1,10 +1,10 @@
 # Bird recognition - review of useful resources
 A list of useful resources in the bird sound recognition - bird songs & calls
-* [Datasets](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Datasets)
-* [Papers](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Papers)
-* [Open Source Projects](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Open-Source-Projects)
-* [Competitions](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Competitions)
-* [Articles](https://github.com/AgaMiko/Bird-recognition-review/blob/master/README.md#Articles)
+* [Datasets](#Datasets)
+* [Papers](#Papers)
+* [Open Source Projects](#Open-Source-Projects)
+* [Competitions](#Competitions)
+* [Articles](#Articles)
 
 
 ![Singing bird](https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/bird_16x9_3.jpg)
@@ -27,8 +27,9 @@ Deep Learning Techniques](http://ceur-ws.org/Vol-1609/16090547.pdf) point out so
 
 - **[xeno-canto.org](https://www.xeno-canto.org/)** is a website dedicated to sharing bird sounds from all over the world (480k, September 2019).
 **Scripts that make downloading easier can be found here:**
-  - [github.com/AgaMiko/xeno-canto-download](https://github.com/AgaMiko/xeno-canto-download) - Simple and easy scraper to download sound with metadata, written in python
-  - [github.com/ntivirikin/xeno-canto-py](https://github.com/ntivirikin/xeno-canto-py) - Python API wrapper designed to help users easily download xeno-canto.org recordings and associated information. Avaiable to install with pip manager.
+  - [AgaMiko/xeno-canto-download](https://github.com/AgaMiko/xeno-canto-download) - Simple and easy scraper to download sound with metadata, written in python
+  - [ntivirikin/xeno-canto-py](https://github.com/ntivirikin/xeno-canto-py) - Python API wrapper designed to help users easily download xeno-canto.org recordings and associated information. Avaiable to install with pip manager.
+  - [realzza/xenopy](https://github.com/realzza/xenopy) - XenoPy is a python wrapper for Xeno-canto API 2.0. Supports multiprocessing downloading.
 
 - **[Macaulay Library](https://search.macaulaylibrary.org/catalog)** is the world's largest archive of animal sounds. It includes more than 175,000 audio recordings covering 75 percent of the world's bird species. There are an ever-increasing numbers of insect, fish, frog, and mammal recordings. The video archive includes over 50,000 clips, representing over 3,500 species.[1] The Library is part of Cornell Lab of Ornithology of the Cornell University. 
 
